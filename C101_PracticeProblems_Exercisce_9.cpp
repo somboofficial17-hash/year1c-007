@@ -1,0 +1,17 @@
+/* 4/10/2026 
+9. Suppose that the following code fragment is executed.
+*/
+
+#include<iostream>
+using namespace std;
+int main(){
+	const int LENGTH =21;
+	char message[LENGTH];
+	
+	cout<<"Enter a sentence on the line below."<<endl;
+	cin.getline(message,LENGTH, '\n');
+	
+	cout<<message<<endl;
+	
+	return 0;
+}
